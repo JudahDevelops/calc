@@ -12,7 +12,6 @@ buttons.forEach(button => {
         } else {
             display.innerText += button.id;
         }
-        console.log(typeof eval(display.innerText));
     });
 })
 
